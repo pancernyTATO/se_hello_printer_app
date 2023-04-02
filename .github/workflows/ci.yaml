@@ -16,10 +16,10 @@ jobs:
       # instalacja wymaganych bibliotek
       - name: Install deps
         run: make deps
-        # Sprawdz bledy
-      - name: Find errors
-        run: make lint
       # testy!!!!!
       - name: Tests
         run: make test
+      # Sprawdz bledy
+      - name: Find errors
+        run: make lint
       
