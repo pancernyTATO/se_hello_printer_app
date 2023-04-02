@@ -19,3 +19,6 @@ jobs:
       # testy!!!!!
       - name: Tests
         run: make test
+      # Lint
+      - name: Lint
+        run: make lint
